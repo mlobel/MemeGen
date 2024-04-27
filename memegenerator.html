@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Droth's Meme Generator!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Meme Generator</h2>
+    <h3>App best viewed in Fullscreen!</h3>
+<div class="form-container">
+
+    <input type="text" id="topText" placeholder="Top Text Goes Here"></input>
+        <br>
+
+    <input type="text" id="bottomText" placeholder="Bottom Text Goes Here"></input>
+        <br>
+
+    <input type="text" id="imgUrl" placeholder="Enter image URL here">
+        <br>
+
+    <button onclick="loadImage()">Create Meme</button>
+</div>
+    
+    <div id="imageContainer"></div>
+    <script src="app.js"></script>
+</body>
+</html>
